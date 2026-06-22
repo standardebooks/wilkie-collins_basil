@@ -67,6 +67,7 @@
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79061084</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">dto</meta>
 		<dc:contributor id="artist">George W. Joy</dc:contributor>
 		<meta property="file-as" refines="#artist">Joy, George W.</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/George_W._Joy</meta>
