@@ -58,6 +58,15 @@ p[epub|type~="z3998:salutation"]{
 	text-indent: 0;
 }
 
+p[epub|type~="se:letter.dateline"]{
+	text-align: right;
+	font-style: italic;
+}
+
+[epub|type~="z3998:letter"] header + p{
+	text-indent: 0;
+}
+
 [epub|type~="z3998:postscript"]{
 	margin-top: 1em;
 	text-align: initial;
