@@ -59,8 +59,8 @@ p[epub|type~="z3998:salutation"]{
 }
 
 p[epub|type~="se:letter.dateline"]{
-	text-align: right;
 	font-style: italic;
+	text-align: right;
 }
 
 [epub|type~="z3998:letter"] header + p{
