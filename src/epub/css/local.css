@@ -34,22 +34,34 @@ footer{
 	display: none;
 }
 
-[epub|type~="z3998:verse"] p + p{
-	margin-top: 1em;
-}
-
-p span.i1{
-	padding-left: 2em;
-	text-indent: -1em;
-}
-
-p span.i2{
-	padding-left: 3em;
-	text-indent: -1em;
-}
-
 .diary-date{
 	font-style: italic;
+}
+
+.letter-detail{
+	font-variant: small-caps;
+	margin-bottom: 1em;
+	text-align: center;
+	text-indent: 0;
+}
+
+#epilogue blockquote{
+	margin-left: 0;
+}
+
+[epub|type~="z3998:salutation"] + p{
+	text-indent: 0;
+}
+
+p[epub|type~="z3998:salutation"]{
+	font-variant: small-caps;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:postscript"]{
+	margin-top: 1em;
+	text-align: initial;
+	text-indent: 0;
 }
 
 div{
