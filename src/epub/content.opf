@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
-		<dc:identifier id="uid">https://standardebooks.org/ebooks/wilkie_collins/basil</dc:identifier>
+		<dc:identifier id="uid">https://standardebooks.org/ebooks/wilkie-collins/basil</dc:identifier>
 		<dc:date>1900-01-01T00:00:00Z</dc:date>
 		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
@@ -44,42 +44,38 @@
 		<dc:subject id="subject-5">Revenge -- Fiction</dc:subject>
 		<meta property="authority" refines="#subject-5">LCHS</meta>
 		<meta property="term" refines="#subject-5">sh2008110358</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="se:subject">Fiction</meta>
+		<dc:description id="description">An aristocratic young man falls in love at first sight with a lower-class girl he sees on an omnibus, an attraction which leads to fatal consequences.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;&lt;i&gt;Basil&lt;/i&gt;, published in 1852, was the second novel published by &lt;a href="https://standardebooks.org/ebooks/wilkie-collins"&gt;Wilkie Collins&lt;/a&gt;, the first being a historical romance, &lt;i&gt;Antonina, or the Fall of Rome&lt;/i&gt;. In writing &lt;i&gt;Basil&lt;/i&gt;, Collins took a very different approach, this being his first venture into what was then dubbed “sensation fiction.” It includes themes of adultery, fraud, betrayal and vengeance; certainly sensational by the standards of the early Victorian era in which it was written.&lt;/p&gt;
+&lt;p&gt;The novel begins with Basil, an aristocratic young man who sees a beautiful young woman on an omnibus, and instantly falls in love with her. However, she is merely the daughter of a linen-draper and thus far beneath him in the class hierarchy of the time. Nevertheless Basil pursues her and enters into an unwise arrangement with her father, ultimately leading to disastrous consequences.&lt;/p&gt;
+&lt;p&gt;&lt;i&gt;Basil&lt;/i&gt; was adapted into a film in 1998 by Radha Bharadwaj, who also directed it. The film appears to have been a critical success.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/4605</dc:source>
-		<dc:source>PAGE_SCANS_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<dc:source>https://archive.org/details/bub_gb_PfW4qWihA1IC</dc:source>
+		<meta property="se:production-notes">In the original scans, the Journal seems to be part of the last chapter. But it stands quite separate from what proceeds it, so I’ve broken it out into its own file with its own title.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Basil</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/wilkie_collins_basil</meta>
-		<dc:creator id="author-1">Wilkie</dc:creator>
-		<meta property="file-as" refines="#author-1">CONTRIBUTOR_SORT</meta>
-		<meta property="se:name.person.full-name" refines="#author-1">CONTRIBUTOR_FULL_NAME</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author-1">https://en.wikipedia.org/wiki/Wilkie</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author-1">CONTRIBUTOR_NACOAF_URI</meta>
-		<meta property="role" refines="#author-1" scheme="marc:relators">aut</meta>
-		<dc:creator id="author-2">Collins</dc:creator>
-		<meta property="file-as" refines="#author-2">CONTRIBUTOR_SORT</meta>
-		<meta property="se:name.person.full-name" refines="#author-2">CONTRIBUTOR_FULL_NAME</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author-2">https://en.wikipedia.org/wiki/Collins</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author-2">CONTRIBUTOR_NACOAF_URI</meta>
-		<meta property="role" refines="#author-2" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST_NAME</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<meta property="se:url.vcs.github">https://github.com/standardebooks/wilkie-collins_basil</meta>
+		<dc:creator id="author">Wilkie Collins</dc:creator>
+		<meta property="file-as" refines="#author">Collins, Wilkie</meta>
+		<meta property="se:name.person.full-name" refines="#author">William Wilkie Collins</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Wilkie_Collins</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79061084</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
+		<dc:contributor id="artist">George W. Joy</dc:contributor>
+		<meta property="file-as" refines="#artist">Joy, George W.</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/George_W._Joy</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">James Rusk</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">James, Rusk</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER_NAME</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="producer-1">David Grigg</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Grigg, David</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://thegriggs.org/david/</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
