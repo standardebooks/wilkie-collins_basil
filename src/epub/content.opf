@@ -58,7 +58,7 @@
 		<meta property="se:production-notes">In the original scans, the Journal seems to be part of the last chapter. But it stands quite separate from what proceeds it, so I’ve broken it out into its own file with its own title.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Basil</meta>
+		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Basil_(novel)</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/wilkie-collins_basil</meta>
 		<dc:creator id="author">Wilkie Collins</dc:creator>
 		<meta property="file-as" refines="#author">Collins, Wilkie</meta>
@@ -72,6 +72,7 @@
 		<meta property="file-as" refines="#artist">Joy, George W.</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/George_W._Joy</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
+		<meta property="se:name.person.full-name" refines="#artist">George William Joy</meta>
 		<dc:contributor id="transcriber-1">James Rusk</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">James, Rusk</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
