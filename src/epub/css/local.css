@@ -36,13 +36,6 @@ time{
 	font-style: italic;
 }
 
-.letter-detail{
-	font-variant: small-caps;
-	margin-bottom: 1em;
-	text-align: center;
-	text-indent: 0;
-}
-
 #epilogue blockquote{
 	margin-left: 0;
 }
@@ -69,4 +62,3 @@ p[epub|type~="se:letter.dateline"]{
 	text-align: initial;
 	text-indent: 0;
 }
-
