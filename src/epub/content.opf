@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/wilkie-collins/basil</dc:identifier>
 		<dc:date>1900-01-01T00:00:00Z</dc:date>
 		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -30,21 +31,21 @@
 		<dc:title id="title">Basil</dc:title>
 		<meta property="file-as" refines="#title">Basil</meta>
 		<dc:subject id="subject-1">Inheritance and succession -- Fiction</dc:subject>
-		<meta property="authority" refines="#subject-1">LCHS</meta>
+		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh2008104235</meta>
 		<dc:subject id="subject-2">Young men -- Psychology -- Fiction</dc:subject>
-		<meta property="authority" refines="#subject-2">LCHS</meta>
+		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">Unknown</meta>
 		<dc:subject id="subject-3">Fathers and sons -- Fiction</dc:subject>
-		<meta property="authority" refines="#subject-3">LCHS</meta>
+		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">sh2008103511</meta>
 		<dc:subject id="subject-4">England -- Fiction</dc:subject>
-		<meta property="authority" refines="#subject-4">LCHS</meta>
+		<meta property="authority" refines="#subject-4">LCSH</meta>
 		<meta property="term" refines="#subject-4">Unknown</meta>
 		<dc:subject id="subject-5">Revenge -- Fiction</dc:subject>
-		<meta property="authority" refines="#subject-5">LCHS</meta>
+		<meta property="authority" refines="#subject-5">LCSH</meta>
 		<meta property="term" refines="#subject-5">sh2008110358</meta>
-		<meta property="se:subject">Fiction</meta>
+		<meta property="schema:genre">Fiction</meta>
 		<dc:description id="description">An aristocratic young man falls in love at first sight with a lower-class girl he sees on an omnibus, an attraction which leads to fatal consequences.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;Basil&lt;/i&gt;, published in 1852, was the second novel published by &lt;a href="https://standardebooks.org/ebooks/wilkie-collins"&gt;Wilkie Collins&lt;/a&gt;, the first being a historical romance, &lt;i&gt;Antonina, or the Fall of Rome&lt;/i&gt;. In writing &lt;i&gt;Basil&lt;/i&gt;, Collins took a very different approach, this being his first venture into what was then dubbed “sensation fiction.” It includes themes of adultery, fraud, betrayal and vengeance; certainly sensational by the standards of the early Victorian era in which it was written.&lt;/p&gt;
@@ -56,29 +57,31 @@
 		<dc:source>https://www.gutenberg.org/ebooks/4605</dc:source>
 		<dc:source>https://archive.org/details/bub_gb_PfW4qWihA1IC</dc:source>
 		<meta property="se:production-notes">In the original scans, the Journal seems to be part of the last chapter. But it stands quite separate from what proceeds it, so I’ve broken it out into its own file with its own title.</meta>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Basil_(novel)</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/wilkie-collins_basil</meta>
+		<meta property="schema:wordCount">WORD_COUNT</meta>
+		<meta property="schema:educationalLevel">READING_EASE</meta>
+		<link href="https://en.wikipedia.org/wiki/Basil_(novel)" rel="schema:sameAs"/>
+		<meta id="vcs-repository" property="schema:workExample">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/wilkie-collins_basil" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Wilkie Collins</dc:creator>
 		<meta property="file-as" refines="#author">Collins, Wilkie</meta>
-		<meta property="se:name.person.full-name" refines="#author">William Wilkie Collins</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Wilkie_Collins</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79061084</meta>
+		<meta property="schema:alternateName" refines="#author">William Wilkie Collins</meta>
+		<link href="https://en.wikipedia.org/wiki/Wilkie_Collins" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n79061084.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">dto</meta>
 		<dc:contributor id="artist">George W. Joy</dc:contributor>
 		<meta property="file-as" refines="#artist">Joy, George W.</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/George_W._Joy</meta>
+		<link href="https://en.wikipedia.org/wiki/George_W._Joy" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<meta property="se:name.person.full-name" refines="#artist">George William Joy</meta>
+		<meta property="schema:alternateName" refines="#artist">George William Joy</meta>
 		<dc:contributor id="transcriber-1">James Rusk</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">James, Rusk</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">David Grigg</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Grigg, David</meta>
-		<meta property="se:url.homepage" refines="#producer-1">https://thegriggs.org/david/</meta>
+		<link href="https://thegriggs.org/david/" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
