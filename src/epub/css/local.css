@@ -57,3 +57,7 @@ p[epub|type~="se:letter.dateline"]{
 	text-align: initial;
 	text-indent: 0;
 }
+
+[epub|type~="epilogue"] blockquote{
+	margin: 0;
+}
