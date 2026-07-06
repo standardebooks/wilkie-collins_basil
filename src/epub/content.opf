@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/wilkie-collins/basil</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2026-07-06T21:42:02Z</dc:date>
+		<meta property="dcterms:modified">2026-07-06T21:42:02Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
@@ -46,19 +46,17 @@
 		<meta property="authority" refines="#subject-5">LCSH</meta>
 		<meta property="term" refines="#subject-5">sh2008110358</meta>
 		<meta property="schema:genre">Fiction</meta>
-		<dc:description id="description">An aristocratic young man falls in love at first sight with a lower-class girl he sees on an omnibus, an attraction which leads to fatal consequences.</dc:description>
+		<dc:description id="description">An aristocratic young man falls in love at first sight with a lower-class girl on an omnibus, with disastrous consequences.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;&lt;i&gt;Basil&lt;/i&gt;, published in 1852, was the second novel published by &lt;a href="https://standardebooks.org/ebooks/wilkie-collins"&gt;Wilkie Collins&lt;/a&gt;, the first being a historical romance, &lt;i&gt;Antonina, or the Fall of Rome&lt;/i&gt;. In writing &lt;i&gt;Basil&lt;/i&gt;, Collins took a very different approach, this being his first venture into what was then dubbed “sensation fiction.” It includes themes of adultery, fraud, betrayal and vengeance; certainly sensational by the standards of the early Victorian era in which it was written.&lt;/p&gt;
-			&lt;p&gt;The novel begins with Basil, an aristocratic young man who sees a beautiful young woman on an omnibus, and instantly falls in love with her. However, she is merely the daughter of a linen-draper and thus far beneath him in the class hierarchy of the time. Nevertheless Basil pursues her and enters into an unwise arrangement with her father, ultimately leading to disastrous consequences.&lt;/p&gt;
-			&lt;p&gt;Though when it was first published the novel attracted condemnation from some readers, Collins defends himself in the revised introduction of the book against “the prurient misinterpretation of certain perfectly innocent passages,” and it appears to have steadily gained in popularity despite (or perhaps because of) such condemnation.&lt;/p&gt;
-			&lt;p&gt;&lt;i&gt;Basil&lt;/i&gt; was adapted into a film in 1998 by Radha Bharadwaj, who also directed it. The film seems to have been a critical success.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;Basil&lt;/i&gt;, published in 1852, is &lt;a href="https://standardebooks.org/ebooks/wilkie-collins"&gt;Wilkie Collins’&lt;/a&gt; second novel. In writing it, Collins took a very different approach from his first novel, a historical romance: &lt;i&gt;Basil&lt;/i&gt; is his first venture into “sensation fiction.” It features themes of adultery, fraud, betrayal, and vengeance; themes certainly sensational by the standards of the early Victorian era in which it was written.&lt;/p&gt;
+			&lt;p&gt;The novel begins with Basil, an aristocratic young man who sees a beautiful young woman on an omnibus, and instantly falls in love with her. Unfortunately for Basil, she’s the daughter of a mere linen-draper, and thus far beneath him in class. Nevertheless Basil pursues her and enters into an unwise arrangement with her father, ultimately leading to disastrous consequences.&lt;/p&gt;
+			&lt;p&gt;On its publication the novel attracted condemnation from some readers, and Collins defends himself in the revised introduction of the book against “the prurient misinterpretation of certain perfectly innocent passages.” It steadily grew in popularity despite (or perhaps because of) such condemnation.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/4605</dc:source>
 		<dc:source>https://archive.org/details/bub_gb_PfW4qWihA1IC</dc:source>
-		<meta property="se:production-notes">In the original scans, the Journal seems to be part of the last chapter. But it stands quite separate from what proceeds it, so I’ve broken it out into its own file with its own title.</meta>
-		<meta property="schema:wordCount">WORD_COUNT</meta>
-		<meta property="schema:educationalLevel">READING_EASE</meta>
+		<meta property="schema:wordCount">116685</meta>
+		<meta property="schema:educationalLevel">66.47</meta>
 		<link href="https://en.wikipedia.org/wiki/Basil_(novel)" rel="schema:sameAs"/>
 		<meta id="vcs-repository" property="schema:workExample">schema:workExample</meta>
 		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
@@ -73,6 +71,7 @@
 		<meta property="role" refines="#author" scheme="marc:relators">dto</meta>
 		<dc:contributor id="artist">George W. Joy</dc:contributor>
 		<meta property="file-as" refines="#artist">Joy, George W.</meta>
+		<meta property="schema:alternateName" refines="#artist">George William Joy</meta>
 		<link href="https://en.wikipedia.org/wiki/George_W._Joy" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<meta property="schema:alternateName" refines="#artist">George William Joy</meta>
@@ -88,6 +87,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Weijia Cheng</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Cheng, Weijia</meta>
+		<link href="https://weijiarhymeswith.asia/" refines="#producer-2" rel="schema:url"/>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
