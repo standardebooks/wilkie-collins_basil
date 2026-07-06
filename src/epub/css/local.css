@@ -4,7 +4,6 @@
 header{
 	font-variant: small-caps;
 	margin: 1em;
-	text-align: center;
 }
 
 footer{
@@ -34,10 +33,6 @@ footer{
 
 time{
 	font-style: italic;
-}
-
-#epilogue blockquote{
-	margin-left: 0;
 }
 
 [epub|type~="z3998:salutation"] + p{
