@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/wilkie-collins/basil</dc:identifier>
 		<dc:date>2026-07-06T21:42:02Z</dc:date>
@@ -46,12 +46,12 @@
 		<meta property="authority" refines="#subject-5">LCSH</meta>
 		<meta property="term" refines="#subject-5">sh2008110358</meta>
 		<meta property="schema:genre">Fiction</meta>
-		<dc:description id="description">An aristocratic young man falls in love at first sight with a lower-class girl on an omnibus, with disastrous consequences.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>An aristocratic young man falls in love at first sight with a lower-class girl on an omnibus, with disastrous consequences.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;&lt;i&gt;Basil&lt;/i&gt;, published in 1852, is &lt;a href="https://standardebooks.org/ebooks/wilkie-collins"&gt;Wilkie Collins’&lt;/a&gt; second novel. In writing it, Collins took a very different approach from his first novel, a historical romance: &lt;i&gt;Basil&lt;/i&gt; is his first venture into “sensation fiction.” It features themes of adultery, fraud, betrayal, and vengeance; themes certainly sensational by the standards of the early Victorian era in which it was written.&lt;/p&gt;
 			&lt;p&gt;The novel begins with Basil, an aristocratic young man who sees a beautiful young woman on an omnibus, and instantly falls in love with her. Unfortunately for Basil, she’s the daughter of a mere linen-draper, and thus far beneath him in class. Nevertheless Basil pursues her and enters into an unwise arrangement with her father, ultimately leading to disastrous consequences.&lt;/p&gt;
 			&lt;p&gt;On its publication the novel attracted condemnation from some readers, and Collins defends himself in the revised introduction of the book against “the prurient misinterpretation of certain perfectly innocent passages.” It steadily grew in popularity despite (or perhaps because of) such condemnation.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/4605</dc:source>
 		<dc:source>https://archive.org/details/bub_gb_PfW4qWihA1IC</dc:source>
