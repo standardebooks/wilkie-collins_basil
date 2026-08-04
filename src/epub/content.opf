@@ -46,7 +46,7 @@
 		<meta property="authority" refines="#subject-5">LCSH</meta>
 		<meta property="term" refines="#subject-5">sh2008110358</meta>
 		<meta property="schema:genre">Fiction</meta>
-		<dc:abstract>An aristocratic young man falls in love at first sight with a lower-class girl on an omnibus, with disastrous consequences.</dc:abstract>
+		<meta property="schema:abstract">An aristocratic young man falls in love at first sight with a lower-class girl on an omnibus, with disastrous consequences.</meta>
 		<dc:description>
 			&lt;p&gt;&lt;i&gt;Basil&lt;/i&gt;, published in 1852, is &lt;a href="https://standardebooks.org/ebooks/wilkie-collins"&gt;Wilkie Collins’&lt;/a&gt; second novel. In writing it, Collins took a very different approach from his first novel, a historical romance: &lt;i&gt;Basil&lt;/i&gt; is his first venture into “sensation fiction.” It features themes of adultery, fraud, betrayal, and vengeance; themes certainly sensational by the standards of the early Victorian era in which it was written.&lt;/p&gt;
 			&lt;p&gt;The novel begins with Basil, an aristocratic young man who sees a beautiful young woman on an omnibus, and instantly falls in love with her. Unfortunately for Basil, she’s the daughter of a mere linen-draper, and thus far beneath him in class. Nevertheless Basil pursues her and enters into an unwise arrangement with her father, ultimately leading to disastrous consequences.&lt;/p&gt;
