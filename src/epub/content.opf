@@ -30,19 +30,19 @@
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<dc:title id="title">Basil</dc:title>
 		<meta property="file-as" refines="#title">Basil</meta>
-		<dc:subject id="subject-1">Inheritance and succession -- Fiction</dc:subject>
+		<dc:subject id="subject-1">Inheritance and succession--Fiction</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh2008104235</meta>
-		<dc:subject id="subject-2">Young men -- Psychology -- Fiction</dc:subject>
+		<dc:subject id="subject-2">Young men--Psychology--Fiction</dc:subject>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">Unknown</meta>
-		<dc:subject id="subject-3">Fathers and sons -- Fiction</dc:subject>
+		<dc:subject id="subject-3">Fathers and sons--Fiction</dc:subject>
 		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">sh2008103511</meta>
-		<dc:subject id="subject-4">England -- Fiction</dc:subject>
+		<dc:subject id="subject-4">England--Fiction</dc:subject>
 		<meta property="authority" refines="#subject-4">LCSH</meta>
 		<meta property="term" refines="#subject-4">Unknown</meta>
-		<dc:subject id="subject-5">Revenge -- Fiction</dc:subject>
+		<dc:subject id="subject-5">Revenge--Fiction</dc:subject>
 		<meta property="authority" refines="#subject-5">LCSH</meta>
 		<meta property="term" refines="#subject-5">sh2008110358</meta>
 		<meta property="schema:genre">Fiction</meta>
