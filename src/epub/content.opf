@@ -76,7 +76,7 @@
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<meta property="schema:alternateName" refines="#artist">George William Joy</meta>
 		<dc:contributor id="transcriber-1">James Rusk</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">James, Rusk</meta>
+		<meta property="file-as" refines="#transcriber-1">Rusk, James</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">David Grigg</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Grigg, David</meta>
